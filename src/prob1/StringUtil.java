@@ -2,7 +2,15 @@ package prob1;
 
 public class StringUtil {
     public static String concatenate( String[] str ){
-        //문자열을 결합하여 리턴하는 메소드 구현
+       String temp = str[0].concat(str[1]);
+       String result = temp.concat(str[2]);
+    	
+//    	String temp = str[0]+str[1];
+//        String result = temp+str[2];
+       
+       return result;
     }
+    
+  
 }
 

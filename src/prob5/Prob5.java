@@ -6,3 +6,4 @@ public class Prob5 {
 		pt.getInformation();
 	}
 }
+
